@@ -1,0 +1,25 @@
+Primer aplicación en Ionic
+
+- Preparación del entorno
+  
+  instalación de Node.js y de npm 
+    https://nodejs.org/en/download/
+  
+  instalación de Ionic CLI:
+    npm install -g @ionic/cli
+
+  Crear aplicación con Ionic: 
+    ionic start
+     - tabs	       Iniciar aplicación con una interfaz con pestañas
+     - blank	 Iniciar apliación en blanco
+     - sidemenu    Iniciar una aplicación con un menú lateral con navegación contenida en la misma área.
+     - super	 Iniciar un proyecto completo con páginas pre-construuidas,proveedores y las mejores prácticas para ionic.
+     - conference	 Un proyecto que demuestra una aplicación real.
+     - tutorial	 Tutorial basado en la documentación de Ionic.
+     - aws	       AWS Mobile Hub Starter 
+      
+  Ejecutar aplicación en navegador:
+    ionic serve
+  
+  Crear una nueva página:
+    ionic g page <nombre de la pagina>
